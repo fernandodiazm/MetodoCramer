@@ -1,0 +1,54 @@
+.example-card {
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkgray;
+}
+
+.ejemplo-card {
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkgray;
+}
+
+.centro{
+  text-align: center;
+}
+
+/* Create four equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 50%;
+    
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    
+  }
+}
+
